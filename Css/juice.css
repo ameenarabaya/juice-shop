@@ -1,0 +1,278 @@
+:root {}
+
+body {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.navbar .navbar-nav li a {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar .container a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.landing {
+    background-image: url(../image/header_bg-1.jpg);
+    background-size: cover;
+    min-height: 130vh;
+    width: 100%;
+
+}
+
+.landing .container h1 {
+    font-size: 10rem;
+    color: white;
+    letter-spacing: 2px;
+}
+
+@media(max-width:767px) {
+    .landing .container h1 {
+        font-size: 8rem;
+        ;
+    }
+}
+
+.landing .container p {
+    color: rgba(12, 12, 12, 0.2);
+    letter-spacing: 15px;
+    position: relative;
+}
+
+.landing .text {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.best {
+    background-image: url(../image/juice-bar-01.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.best .container {
+    width: 70%;
+    height: 50%px;
+}
+
+.best p {
+    max-width: 500px;
+    color: #666666;
+}
+
+.best .container button {
+    background-color: black;
+}
+
+.Properties .all .first1 {
+    background-color: #fc6a3c;
+}
+
+@media(max-width:992px) {
+    .Properties .all {
+        flex-direction: column;
+    }
+}
+
+.Properties .all .first2 {
+    background-color: #f1be52;
+}
+
+.Properties .all .first3 {
+    background-color: #71b953;
+}
+
+.Properties .all p,
+h3 {
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.apple .container .all p {
+    color: #666666;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.CLEANSEs {
+    background-image: url(../image/juice-bar-43-1.jpg);
+    background-size: cover;
+    min-height: 130vh;
+}
+
+.CLEANSEs .row p {
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.CLEANSEs .row button {
+    background-color: black;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.about .row img {
+    height: 300px;
+}
+
+.about .row .part1 {
+    background-color: #f1be52;
+    width: 300px;
+}
+
+.about .row .part2 {
+    background-color: #fc6a3c;
+    width: 300px;
+}
+
+.about .row .part3 {
+    background-color: #71b953;
+    width: 300px;
+}
+
+.about .container .a4 p,
+h3 {
+    color: white;
+}
+
+.about .a4 p {
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.percent .container .row .section {
+    background-color: #dddddd;
+    height: 25px;
+    position: relative;
+}
+
+@media (max-width:7667px) {
+    .percent .container .row {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+.percent .container .row .s1::before {
+    content: "VITAMIN D";
+    position: absolute;
+    left: 0;
+    top: -30px;
+    color: #376646;
+}
+
+.percent .container .row .s2::before {
+    content: "POTASSIUM";
+    position: absolute;
+    left: 0;
+    top: -30px;
+    color: #017a8d;
+}
+
+.percent .container .row .s3::before {
+    content: "VITAMIN B12";
+    position: absolute;
+    left: 0;
+    top: -30px;
+    color: #ac3b4a;
+}
+
+.percent .container .row .s4::before {
+    content: "VITAMIN A";
+    position: absolute;
+    left: 0;
+    top: -30px;
+    color: #f1be52;
+}
+
+.percent .container .row .s5::before {
+    content: "VITAMIN B";
+    position: absolute;
+    left: 0;
+    top: -30px;
+    color: #fc6a3c;
+}
+
+.percent .container .row .s6::before {
+    content: "VITAMIN C";
+    position: absolute;
+    left: 0;
+    top: -30px;
+    color: #71b953;
+}
+
+@media(max-width:767px) {
+    .apple .container .all {
+        flex-direction: column;
+    }
+}
+
+.percent .container .row .section span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.person .row p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.contact {
+    background-image: linear-gradient(180deg, #ffffff 20%, rgba(255, 255, 255, 0) 80%), url(../image/22.jpg);
+    background-size: cover;
+    min-height: 120vh;
+
+}
+
+.contact .row p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    width: 100%;
+
+}
+
+.contact .row input,
+textarea {
+    border: 3px solid rgba(51, 51, 51, 0.1);
+
+}
+
+.contact .row button {
+    background-color: black;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+footer {
+    background-color: black;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer .row .part a:not(.active) {
+    color: white;
+}
+
+footer .row .part a.active {
+    color: rgba(255, 255, 255, 0.4);
+}
